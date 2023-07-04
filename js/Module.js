@@ -4,12 +4,6 @@ const productsdb = (dbname, table) => {
     db.open();
   
     return db;
-    /**
-         * const db = new Dexie('myDb');
-            db.version(1).stores({
-            friends: `name, age`
-        });
-         */
   };
   
   const bulkcreate = (dbtable, data) => {
